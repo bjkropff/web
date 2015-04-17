@@ -26,22 +26,28 @@ h1{
 #circle img {
     margin: 100px;
     height:200px;
-    align: middle;
     background-color: #ff4000;
-    display:;
     border-radius: 50%;
 }
 img {
     height:200px;
-    /*align: middle;
-    background-color: #ff4000;
-    display:;*/
     border-radius: 50%;
 }
 
+#uline {
+  display: none;
+}
+
 @media (max-width: 1799px) {
+  body{
+    border-left:200px;
+    border-right:200px;
+  }
+
   .jumbotron{
     margin-top: 50px;
+    max-width: 1000px;
+
   }
 }
 
@@ -58,11 +64,19 @@ img {
     display:none;
   }
 
+  #brina {
+    text-align: center;
+  }
+
+  #uline {
+    display: inline-block;
+  }
+
   .nav li{
     float:left;
     display:block;
     margin: 15px 15px;
-
+    hr/;
   }
 }
 
