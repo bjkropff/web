@@ -1,8 +1,10 @@
-# Pizza Shop for Epicodus
+# Website for Epicodus
 ## by Brian Kropff
+
 ### Date: April 17, 2015
+
 #### Description
-This web app pizza company where a user can go to order a pizza. There, a user can choose between pepperoni or cheese. The cost of a pizza depending on whether it is cheese or pepperoni.
+This is the basic set up for me website
 
 #### Setup instructions
 1. Clone this git repository
