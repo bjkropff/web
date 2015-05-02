@@ -15,26 +15,33 @@ h1{
   float:right;
   display:inline;
   margin: 30px 5px 0 0;
-}
+  padding: 6px 12px;
+  font-weight:400;
+  font-size: 14px;
+
+  }
 
 #circle {
     height:400px;
     text-align: center;
     background-color: #87CEFA;
+    width: 100%;
 }
 
-#circle img {
+#circle #pic {
     margin: 100px;
     height:200px;
     background-color: #ff4000;
     border-radius: 50%;
 }
+
 img {
     height:200px;
-    border-radius: 50%;
+    border: solid 1px blue;
 }
 
-#uline {
+#uline,
+#navmo{
   display: none;
 }
 
@@ -43,24 +50,18 @@ img {
     border-left:200px;
     border-right:200px;
   }
-
-  .jumbotron{
-    margin-top: 50px;
-    max-width: 1000px;
-
-  }
 }
 
 @media (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: ;
     }
 
   hr#content {
     display:none;
   }
 
-  .jumbotron {
+  #tron {
     display:none;
   }
 
@@ -68,16 +69,20 @@ img {
     text-align: center;
   }
 
-  #uline {
+  #uline,
+  #navmo {
     display: inline-block;
   }
 
-  .nav li{
-    float:left;
-    display:block;
-    margin: 15px 15px;
-    hr/;
+  #top{
+    display: none;
   }
+
+  #brian {
+ float: none;
+ font-weight: bold;
+ font-size: 4em;
+ font-family: helvetica;
 }
 
 /*

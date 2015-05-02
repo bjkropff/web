@@ -1,14 +1,7 @@
-# Website for Epicodus
-## by Brian Kropff
-
+# Brian Kropff
 ### Date: April 17, 2015
-
 #### Description
-This is the basic set up for me website
-
-#### Setup instructions
-1. Clone this git repository
-2. Start the web app by loading triangle.html in your browser
+This is my portfolio site
 
 #### Copyright © 2015, Brian Kropff
 All images labeled for reuse
